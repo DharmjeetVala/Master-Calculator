@@ -24,10 +24,10 @@
         <ImageButton
             android:id="@+id/back_button"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:background="?attr/selectableItemBackgroundBorderless"
-            android:src="@drawable/ic_back"
-            android:contentDescription="@string/back_button" />
+            android:contentDescription="@string/back_button"
+            android:src="@drawable/ic_back" />
 
         <TextView
             android:layout_width="0dp"
@@ -60,7 +60,6 @@
             android:gravity="bottom|end"
             android:maxLines="1"
             android:padding="10dp"
-            android:text="4320*12+0.49"
             android:textColor="@color/black"
             android:textSize="20sp" />
 
@@ -72,7 +71,6 @@
             android:gravity="bottom|end"
             android:maxLines="1"
             android:padding="10dp"
-            android:text="51840.49"
             android:textColor="@color/black"
             android:textSize="50sp"
             android:textStyle="bold" />
@@ -105,7 +103,8 @@
             android:text="AC"
             android:textAllCaps="false"
             android:textColor="@color/btnTextColor"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/idBtnC"
@@ -118,7 +117,8 @@
             android:text="C"
             android:textAllCaps="false"
             android:textColor="@color/btnTextColor"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/idBtnBrac1"
@@ -131,7 +131,8 @@
             android:text="("
             android:textAllCaps="false"
             android:textColor="@color/btnTextColor"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/idBtnBrac2"
@@ -144,7 +145,8 @@
             android:text=")"
             android:textAllCaps="false"
             android:textColor="@color/btnTextColor"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <!-- Second Row -->
         <androidx.appcompat.widget.AppCompatButton
@@ -158,7 +160,8 @@
             android:text="sin"
             android:textAllCaps="false"
             android:textColor="@color/btnTextColor"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/idBtnCos"
@@ -171,7 +174,8 @@
             android:text="cos"
             android:textAllCaps="false"
             android:textColor="@color/btnTextColor"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/idBtnTan"
@@ -184,7 +188,8 @@
             android:text="tan"
             android:textAllCaps="false"
             android:textColor="@color/btnTextColor"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/idBtnLog"
@@ -197,7 +202,8 @@
             android:text="log"
             android:textAllCaps="false"
             android:textColor="@color/btnTextColor"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <!-- Third Row -->
         <androidx.appcompat.widget.AppCompatButton
@@ -211,7 +217,8 @@
             android:text="x!"
             android:textAllCaps="false"
             android:textColor="@color/btnTextColor"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/idBtnSquare"
@@ -224,7 +231,8 @@
             android:text="x²"
             android:textAllCaps="false"
             android:textColor="@color/btnTextColor"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/idBtnSqRoot"
@@ -237,7 +245,8 @@
             android:text="√"
             android:textAllCaps="false"
             android:textColor="@color/btnTextColor"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/idBtnDiv"
@@ -249,7 +258,8 @@
             android:background="@drawable/btn_bg"
             android:text="/"
             android:textColor="@color/btnTextColor"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <!-- Fourth Row -->
         <androidx.appcompat.widget.AppCompatButton
@@ -295,7 +305,8 @@
             android:background="@drawable/btn_bg"
             android:text="*"
             android:textColor="@color/btnTextColor"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <!-- Fifth Row -->
         <androidx.appcompat.widget.AppCompatButton
@@ -341,7 +352,8 @@
             android:background="@drawable/btn_bg"
             android:text="-"
             android:textColor="@color/btnTextColor"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <!-- Sixth Row -->
         <androidx.appcompat.widget.AppCompatButton
@@ -387,7 +399,8 @@
             android:background="@drawable/btn_bg"
             android:text="+"
             android:textColor="@color/btnTextColor"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/idBtnPie"
@@ -433,7 +446,8 @@
             android:background="@drawable/btn_equal"
             android:text="="
             android:textColor="@color/white"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
     </GridLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         findViewById<AppCompatButton>(R.id.simpleCalc).setOnClickListener {
             val intent = Intent(this, Scientific_Calculator::class.java)
             startActivity(intent)
+            finish()
         }
     }
 }
