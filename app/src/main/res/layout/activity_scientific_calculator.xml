@@ -45,7 +45,7 @@
         android:id="@+id/display_layout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="@color/calcbg"
+        android:background="@color/white"
         android:orientation="vertical"
         android:padding="5dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -82,7 +82,7 @@
         android:id="@+id/calculator_buttons"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="@color/calcbg"
+        android:background="@color/white"
         android:columnCount="4"
         android:padding="1dp"
         android:rowCount="7"
@@ -411,8 +411,8 @@
             android:layout_margin="4dp"
             android:background="@drawable/btn_bg"
             android:text="π"
-            android:textSize="24sp"
-            android:textAllCaps="false"/>
+            android:textAllCaps="false"
+            android:textSize="24sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/idBtn0"

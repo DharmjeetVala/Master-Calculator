@@ -5,7 +5,7 @@
 
     </corners>
 
-    <stroke android:color="@color/black"
+    <stroke android:color="@color/calcbg"
         android:width="1dp">
 
     </stroke>

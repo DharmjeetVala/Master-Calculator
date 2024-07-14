@@ -24,5 +24,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+        findViewById<AppCompatButton>(R.id.gstCalc).setOnClickListener {
+            val intent = Intent(this, Gst_Calculator::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }
