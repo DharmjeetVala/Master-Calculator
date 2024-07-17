@@ -1,5 +1,6 @@
 package com.example.master_calc
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -9,6 +10,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -26,6 +28,11 @@ class MainActivity : AppCompatActivity() {
         }
         findViewById<AppCompatButton>(R.id.gstCalc).setOnClickListener {
             val intent = Intent(this, Gst_Calculator::class.java)
+            startActivity(intent)
+            finish()
+        }
+        findViewById<AppCompatButton>(R.id.currencyConverter).setOnClickListener {
+            val intent = Intent(this, Currency_Converter::class.java)
             startActivity(intent)
             finish()
         }
